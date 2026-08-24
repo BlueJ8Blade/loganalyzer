@@ -22,10 +22,10 @@ with open(exact_path) as file:
             print("Someone failed to log on in the line above")
             errors += 1
         elif "UNAUTHORIZED_ACCESS" in line:
-            print("Someone with unautharized access is in the system! Line above")
+            print("Someone with unauthorized access is in the system! Line above")
             errors += 1
         elif "SQL_INJECTION_TRY" in line:
-            print("Potentional SQLi attack detected in line above")
+            print("Potential SQLi attack detected in line above")
             errors += 1
         elif "BRUTE_FORCE_ATTEMPT" in line:
             print("A brute force attempt was made in the line above")
