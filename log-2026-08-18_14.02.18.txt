@@ -1,0 +1,11 @@
+2026-08-18 13:00:01 - LOGIN_SUCCESS - User: admin
+2026-08-18 13:05:22 - FAILED_LOGIN - User: guest - Reason: Wrong password
+2026-08-18 13:05:25 - FAILED_LOGIN - User: guest - Reason: Wrong password
+2026-08-18 13:10:00 - MALWARE_DETECTED - File: suspicious.exe - Action: Quarantined
+2026-08-18 13:15:44 - LOGIN_SUCCESS - User: Bobby
+2026-08-18 13:20:12 - UNAUTHORIZED_ACCESS - IP: 192.168.1.50
+2026-08-18 13:25:04 - SQL_INJECTION_TRY - Input: ' OR 1=1 -- - Target: Login_Field
+2026-08-18 13:28:10 - BRUTE_FORCE_ATTEMPT - IP: 45.89.22.12 - 50 failures in 10 seconds
+2026-08-18 13:31:55 - DDOS_BURST_REQUESTS - IP: 185.220.101.5 - Rate limit exceeded: 5000 req/sec
+2026-08-18 13:35:00 - FILE_ENCRYPTION_STARTED - Process: unknown.exe - Path: C:\Users\Bobby\Documents
+2026-08-18 13:35:02 - SHADOW_COPIES_DELETED - Process: unknown.exe - Action: System backup deletion try
